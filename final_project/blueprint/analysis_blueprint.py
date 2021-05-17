@@ -10,3 +10,9 @@ def analysis():
     # 렌더링시 데이터를 전달하고 싶으면 키=값 형태로 파라미터를 추가
     # **kargs
     return render_template('index.html')
+
+@analysis_blue.route('/w_wordcloud')
+def w_wordcloud():    
+    # 렌더링시 데이터를 전달하고 싶으면 키=값 형태로 파라미터를 추가
+    # **kargs
+    return render_template('analysis/w_wordcloud.html')
