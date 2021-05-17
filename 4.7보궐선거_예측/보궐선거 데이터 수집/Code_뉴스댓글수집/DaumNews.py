@@ -106,6 +106,7 @@ def getNextPage(site) :
     # print(soup2)
 
     # 현재 페이지와 다음 페이지 첫번째 a 태그에서 링크 가져오기
+    print(soup1)
     a1 = soup1.select('#clusterResultUL > li > div.wrap_cont > div > div > a')[0].attrs['href']
     a2 = soup2.select('#clusterResultUL > li > div.wrap_cont > div > div > a')[0].attrs['href']
     # print(a1)
