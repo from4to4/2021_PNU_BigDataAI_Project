@@ -27,5 +27,3 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    # [4] 소켓io를 이용하여 서버가동 (래핑해서 가동)
-    # socketio.run( app,  debug=True)

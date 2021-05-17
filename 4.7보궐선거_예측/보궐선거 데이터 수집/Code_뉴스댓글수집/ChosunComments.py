@@ -13,14 +13,10 @@
 
 import time
 import os
-
 import pandas as pd
-
 import urllib
 import platform
-
 from selenium import webdriver as wd
-
 from IPython.display import clear_output
 
 
