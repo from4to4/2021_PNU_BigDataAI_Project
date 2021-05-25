@@ -8,7 +8,7 @@
 		L adjective_list.pickle : 형용사 리스트
 		L noun_list.pickle : 명사 리스트
 		L verb_list.pickle : 동사 리스트
-		L coef_pos_text : 모둔 단어 리스트
+		L **coef_pos_text** : 모든 단어 리스트 -> 이슈별 워드클라우드를 통해 후보자별 긍정댓글 점유율을 확인할 때 사용한 데이터
 	
 	L model
 		L sentiment_analysis_model.dat : 감성분석 모델
@@ -16,6 +16,6 @@
 	
 	
 - 리스트 불러오는 방법
-import pickle
-with open('data/adjective_list.pickle', 'rb') as f: 
-	adjective_list = pickle.load(f) # 리스트 불러오기
+$ import pickle
+$ with open('data/adjective_list.pickle', 'rb') as f: 
+		adjective_list = pickle.load(f) # 리스트 불러오기
